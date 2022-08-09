@@ -188,6 +188,76 @@ const app = {
             singer: 'nân, Ngơ',
             path: './assets/music/song20.mp3',
             image: './assets/imgs/thumbs/song20.jpg'
+        },
+        {
+
+            name: 'Ngã tư không đèn',
+            singer: 'Trang, Khoa Vũ',
+            path: './assets/music/song21.mp3',
+            image: './assets/imgs/thumbs/song21.jpg'
+        },
+        {
+
+            name: 'Em về đi em',
+            singer: 'Hoa Vinh',
+            path: './assets/music/song22.mp3',
+            image: './assets/imgs/thumbs/song22.jpg'
+        },
+        {
+
+            name: 'Âm thầm bên em',
+            singer: 'Sơn Tùng M-TP',
+            path: './assets/music/song23.mp3',
+            image: './assets/imgs/thumbs/song23.jpg'
+        },
+        {
+
+            name: '3 1 0 7',
+            singer: 'W/N, Duongg, Nâu, titie',
+            path: './assets/music/song24.mp3',
+            image: './assets/imgs/thumbs/song24.jpg'
+        },
+        {
+
+            name: 'Tình đầu',
+            singer: 'Tăng Duy Tân',
+            path: './assets/music/song25.mp3',
+            image: './assets/imgs/thumbs/song25.jpg'
+        },
+        {
+
+            name: 'Ai đợi mình được mãi',
+            singer: 'Thanh Hưng',
+            path: './assets/music/song26.mp3',
+            image: './assets/imgs/thumbs/song26.jpg'
+        },
+        {
+
+            name: 'Sinh ra đã là thứ đối lập nhau (Freak D Lofi Ver.)',
+            singer: 'Emcee L (Da LAB), Badbies',
+            path: './assets/music/song27.mp3',
+            image: './assets/imgs/thumbs/song27.jpg'
+        },
+        {
+
+            name: 'Chuyện đôi ta',
+            singer: 'Emcee L (Da LAB), Muộii',
+            path: './assets/music/song28.mp3',
+            image: './assets/imgs/thumbs/song28.jpg'
+        },
+        {
+
+            name: 'Đã sai từ lúc đầu (Live Concert Hoa)',
+            singer: 'Trung Quân, Bùi Anh Tuấn',
+            path: './assets/music/song29.mp3',
+            image: './assets/imgs/thumbs/song29.jpg'
+        },
+        {
+
+            name: 'Tình yêu chậm trễ',
+            singer: 'MONSTAR',
+            path: './assets/music/song30.mp3',
+            image: './assets/imgs/thumbs/song30.jpg'
         }
 
     ],
@@ -345,6 +415,8 @@ const app = {
                 // const thumbEl = e.target.closest('.song:not(.active) .thumb');
                 const optionEl = e.target.closest('.icon-options');
                 const favariteEl = e.target.closest('.icon-heart');
+
+
                 // console.log(thumbEl, optionEl, favariteEl);
 
                 if (!optionEl && !favariteEl) {
@@ -360,9 +432,11 @@ const app = {
 
                     }
                 }
-                if (optionEl) {
-                    alert('Nhạc hay thì xin 1 like ạ');
+                if (favariteEl) {
+                    alert('Yêu thích bài hát !!!');
                 }
+
+
             }
         }
 
