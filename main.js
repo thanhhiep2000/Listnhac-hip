@@ -258,6 +258,27 @@ const app = {
             singer: 'MONSTAR',
             path: './assets/music/song30.mp3',
             image: './assets/imgs/thumbs/song30.jpg'
+        },
+        {
+
+            name: 'Xuân thì',
+            singer: 'Phan Mạnh Quỳnh',
+            path: './assets/music/song31.mp3',
+            image: './assets/imgs/thumbs/song31.jpg'
+        },
+        {
+
+            name: 'Vì anh đâu có biết',
+            singer: 'Madihu, Vũ',
+            path: './assets/music/song32.mp3',
+            image: './assets/imgs/thumbs/song32.jpg'
+        },
+        {
+
+            name: 'Vẫn nhớ (Live)',
+            singer: 'Bùi Anh Tuấn',
+            path: './assets/music/song33.m4a',
+            image: './assets/imgs/thumbs/song33.jpg'
         }
 
     ],
