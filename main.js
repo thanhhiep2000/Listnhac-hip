@@ -279,6 +279,20 @@ const app = {
             singer: 'Bùi Anh Tuấn',
             path: './assets/music/song33.m4a',
             image: './assets/imgs/thumbs/song33.jpg'
+        },
+        {
+
+            name: 'Phan bội chính mình',
+            singer: 'Quân A.P',
+            path: './assets/music/song34.mp3',
+            image: './assets/imgs/thumbs/song34.jpg'
+        },
+        {
+
+            name: 'Dằm trong tim',
+            singer: 'Suni Hạ Linh',
+            path: './assets/music/song35.mp3',
+            image: './assets/imgs/thumbs/song35.jpg'
         }
 
     ],
