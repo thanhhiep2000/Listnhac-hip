@@ -293,6 +293,13 @@ const app = {
             singer: 'Suni Hạ Linh',
             path: './assets/music/song35.mp3',
             image: './assets/imgs/thumbs/song35.jpg'
+        },
+        {
+
+            name: 'Tự tình 2',
+            singer: 'Trung Quân',
+            path: './assets/music/song36.mp3',
+            image: './assets/imgs/thumbs/song36.jpg'
         }
 
     ],
